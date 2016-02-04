@@ -1,0 +1,6 @@
+1) http://archive.ics.uci.edu/ml/datasets.html
+
+2) http://www.cs.du.edu/~leut/MultiDimData.html
+
+3) https://people.sc.fsu.edu/~jburkardt/datasets/mds/mds.html
+
