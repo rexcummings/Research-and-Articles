@@ -1,0 +1,3 @@
+1) VLFeat - An open and portable library of computer vision algorithms
+   http://vision.ucla.edu/~brian/papers/vedaldi10vlfeat.pdf
+   
