@@ -1,0 +1,8 @@
+1) University of Washington - Graduate Computer Vision Coursework material
+   http://courses.cs.washington.edu/courses/cse576/08sp/
+
+2) University of California, San Diego - Introduction to Computer Vision
+   http://cseweb.ucsd.edu/classes/wi14/cse152-a/
+   NOTE: ALL DONE IN MATLAB (Which I've never used but will teach myself ... I guess)
+   
+   
