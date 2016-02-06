@@ -1,0 +1,4 @@
+1) Computer Vision: Algorithms and Applications, Richard Szeliski
+   IN CONNECTION WITH UNIVERSITY OF WASHINGTON COMPUTER VISION COURSE
+   http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf
+   
