@@ -9,3 +9,7 @@
    
 4) Electronic Warfare and Radar Systems Engineering Handbook (Navy Reference)
    http://www.navair.navy.mil/nawcwd/ewssa/downloads/NAWCWD%20TP%208347.pdf
+   
+5) Navy's Radar Essentials
+   http://faculty.nps.edu/jenn/Seminars/RadarFundamentals.pdf
+   
