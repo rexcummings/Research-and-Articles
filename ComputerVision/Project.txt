@@ -1,0 +1,21 @@
+Looking at Computer Vision books and project ideas to pursue.  
+
+Current thought process:
+
+Create a CV project involving Human-Computer interaction using specific tools. 
+
+Setup:
+- Linux Mint 17.3 Rosa
+- Kinect Depth Sensor (from Xbox 360 Kinect)
+- OpenNI 2.2.0.33 Beta (x64) ~ http://openni.ru/openni-sdk/
+- NiTE-Linux-x64-2.2.tar ~ https://drive.google.com/file/d/0B3e4...
+- OpenCV (Not sure which version yet ... probably 2.4.6)
+
+May need:
+- OpenNI2-FreenectDriver ~ https://github.com/OpenKinect/libfreenect/tree/master/OpenNI2-FreenectDriver
+
+Links:
+- http://structure.io/openni
+- http://openni.ru/openni-sdk/
+- http://www.resolvinghere.com/sm/how-to-install-openni-22-nite-22-kinect-sdk-18-windows-7-3264-bit.shtml
+- https://www.youtube.com/watch?v=m5uTH3S9P9g
