@@ -50,3 +50,13 @@ Install
 OpenNI2-FreenectDriver is built with a static libfreenect, so you do not need to include libfreenect when deploying.
 However, you will need to make sure target systems have libusb and all other dependencies listed in `ldd libFreenectDriver.so`.
 
+Info2:
+https://github.com/OpenKinect/libfreenect2/issues/168
+
+Error: 
+$sudo ./UserViewer 
+OpenNI2-FreenectDriver: Using libfreenect v0.5.3
+Failed to open device
+	DeviceOpen using default: no devices found
+
+
