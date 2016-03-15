@@ -21,7 +21,32 @@ Links:
 - https://www.youtube.com/watch?v=m5uTH3S9P9g
 - http://forrestbao.blogspot.com/2014/02/openni2-nite2-freenect-ubuntu-1304.html
 
-Error:
+Info:
+OpenNI2-FreenectDriver
+======================
 
-- Unable to detect device so looking for solutions: http://answers.ros.org/question/196455/kinect-installation-and-setup-on-ros-updated/
+OpenNI2-FreenectDriver is a bridge to libfreenect implemented as an OpenNI2 driver.
+It allows OpenNI2 to use Kinect hardware on Linux and OSX.
+OpenNI2-FreenectDriver is distributed under the [Apache 2](https://github.com/OpenKinect/libfreenect/blob/master/APACHE20) license.
+
+Install
+-------
+1. Download and unpack [OpenNI](http://structure.io/openni) 2.2.0.33 or higher.
+2. Go to the top libfreenect directory and build it with the OpenNI2 driver.
+
+        mkdir build
+        cd build
+        cmake .. -DBUILD_OPENNI2_DRIVER=ON
+        make
+
+3. Copy the driver to your OpenNI2 driver repository. You must first change `Repository` to match your project layout.
+
+        Repository="/example/path/to/Samples/Bin/OpenNI2/Drivers/"
+        cp -L lib/OpenNI2-FreenectDriver/libFreenectDriver.{so,dylib} ${Repository}
+        
+        # you could instead make a symlink to avoid copying after every build
+        # ln -s lib/OpenNI2-FreenectDriver/libFreenectDriver.{so,dylib} ${Repository}
+
+OpenNI2-FreenectDriver is built with a static libfreenect, so you do not need to include libfreenect when deploying.
+However, you will need to make sure target systems have libusb and all other dependencies listed in `ldd libFreenectDriver.so`.
 
