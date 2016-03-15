@@ -59,4 +59,8 @@ OpenNI2-FreenectDriver: Using libfreenect v0.5.3
 Failed to open device
 	DeviceOpen using default: no devices found
 
+IMPORTANT:
 
+After messing around with the Kinect device driver with libfreenect, I'm fairly positive I know what the problem is. 
+
+Currently, I am running Linux 17.3 Rosa on a virtual machine, so the usb ports/bus only registers for the host OS being Windows 8.1.  Therefore, I aim to use my older laptop which is dedicated to only Linux.  I prefer not to possibly mess up my new laptop, so I'll sacrifice some computing power and use the other laptop.   
