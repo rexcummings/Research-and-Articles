@@ -20,6 +20,9 @@ Links:
 - http://www.resolvinghere.com/sm/how-to-install-openni-22-nite-22-kinect-sdk-18-windows-7-3264-bit.shtml
 - https://www.youtube.com/watch?v=m5uTH3S9P9g
 - http://forrestbao.blogspot.com/2014/02/openni2-nite2-freenect-ubuntu-1304.html
+- https://help.ubuntu.com/community/OpenCV
+- http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation
+- http://opencv.org/downloads.html
 
 Info:
 OpenNI2-FreenectDriver
