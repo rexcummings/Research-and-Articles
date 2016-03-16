@@ -23,6 +23,7 @@ Links:
 - https://help.ubuntu.com/community/OpenCV
 - http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation
 - http://opencv.org/downloads.html
+- https://books.google.com/books?id=VVxbBAAAQBAJ&pg=PA649&lpg=PA649&dq=stable+version+of+opencv+that+works+with+openni+2.2&source=bl&ots=wLXrgTG6Qr&sig=OZS5olpZ2umTq-rlRUaLwRTyFlc&hl=en&sa=X&ved=0ahUKEwiGupSW08XLAhVDFz4KHdz0CQYQ6AEIRjAG#v=onepage&q=stable%20version%20of%20opencv%20that%20works%20with%20openni%202.2&f=false **Go to page 649 for interesting obstable avoidance technique with Openni 2.2 and Kinect
 
 Info:
 OpenNI2-FreenectDriver
@@ -52,9 +53,6 @@ Install
 
 OpenNI2-FreenectDriver is built with a static libfreenect, so you do not need to include libfreenect when deploying.
 However, you will need to make sure target systems have libusb and all other dependencies listed in `ldd libFreenectDriver.so`.
-
-Info2:
-https://github.com/OpenKinect/libfreenect2/issues/168
 
 IMPORTANT:
 
