@@ -53,14 +53,18 @@ However, you will need to make sure target systems have libusb and all other dep
 Info2:
 https://github.com/OpenKinect/libfreenect2/issues/168
 
-Error: 
-$sudo ./UserViewer 
-OpenNI2-FreenectDriver: Using libfreenect v0.5.3
-Failed to open device
-	DeviceOpen using default: no devices found
-
 IMPORTANT:
 
 After messing around with the Kinect device driver with libfreenect, I'm fairly positive I know what the problem is. 
 
 Currently, I am running Linux 17.3 Rosa on a virtual machine, so the usb ports/bus only registers for the host OS being Windows 8.1.  Therefore, I aim to use my older laptop which is dedicated to only Linux.  I prefer not to possibly mess up my new laptop, so I'll sacrifice some computing power and use the other laptop.   
+
+UPDATE:
+
+Able to successfully compile by source Linux + Kinect Model 1414 + Openni 2.2 + Nite 2.2 with fully operational
+skeleton tracking and detection.  
+
+Next step is to compile OpenCv by source and use it for C++ development.  I've used python extensively, so I'd like to 
+balance out my exposure to ComputerVision research with another language.  
+
+In addition, I plan to update the README with the install procedure when I've completed my setup.  
