@@ -24,7 +24,32 @@ Links:
 - http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation
 - http://opencv.org/downloads.html
 - https://books.google.com/books?id=VVxbBAAAQBAJ&pg=PA649&lpg=PA649&dq=stable+version+of+opencv+that+works+with+openni+2.2&source=bl&ots=wLXrgTG6Qr&sig=OZS5olpZ2umTq-rlRUaLwRTyFlc&hl=en&sa=X&ved=0ahUKEwiGupSW08XLAhVDFz4KHdz0CQYQ6AEIRjAG#v=onepage&q=stable%20version%20of%20opencv%20that%20works%20with%20openni%202.2&f=false **Go to page 649 for interesting obstable avoidance technique with Openni 2.2 and Kinect
-- https://www.youtube.com/watch?v=_Nj23vTxUVI
+- https://www.youtube.com/watch?v=_Nj23vTxUVI\
+
+OpenCV Setup
+- http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_eclipse/linux_eclipse.html#linux-eclipse-usage
+
+#Install dependencies:
+
+sudo apt-get install cmake libavcodec-dev libavformat-dev libavutil-dev 
+libswscale-dev python-dev libgtk2.0-dev python-numpy libopenni0 
+libopenni-dev libope
+nni-sensor-primesense-dev
+
+# Download 2.4.9 from
+# http://sourceforge.net/projects/opencvlibrary/
+# unzip it.
+# in CMakeLists.txt change: WITH_OPENNI to ON
+
+mkdir opencv-2.4.9-build
+cd opencv-2.4.9-build
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D 
+CMAKE_INSTALL_PREFIX=/home/spragunr/opencv ../opencv-2.4.9
+
+#This stuff should probably go into .bashrc:
+export LD_LIBRARY_PATH=/home/spragunr/opencv/lib/
+export 
+PYTHONPATH=/home/spragunr/opencv/lib/python2.7/dist-packages/:$PYTHONPATH
 
 
 Info:
